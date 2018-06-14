@@ -3,4 +3,4 @@
 - hosts: all
   gather_facts: false
   tasks:
-    - ping: {{ip_address}}
+    - shell: ping {{ip_address}}
